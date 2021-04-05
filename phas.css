@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Raleway', sans-serif;
+} 
+html
+{
+    font-size: 15px;
+}
+
+.banner
+{
+    width:100%; 
+    background-image: url("./img-p/bg.jpg");
+    background-attachment: fixed;
+    background-position:center top;
+    background-image: cover;
+    
+}
+header
+{
+    width:100%; 
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+    font-size: medium;
+}
+ 
+nav
+{ 
+    width: 100%;
+    height: 10vh;
+    background-color: black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+   
+}
+nav span
+{
+    color:rgb(82, 79, 79);
+}
+header a
+{
+    color:rgb(233, 228, 228);
+    margin-top: 1.60rem;
+    text-decoration: none;
+    opacity: 0.50rem;
+}
+ul
+{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+li
+{
+  margin-right: 2.05rem;  
+  margin-top: 1.60rem; 
+  list-style: none;
+}
+li a:hover
+{
+    color:white; 
+    opacity: 1rem;
+}
+/*navbar ends*//*navbar ends*//*navbar ends*//*navbar ends*/
+.prag
+{
+width: 80%;  
+margin: 0 auto;
+padding-top: 7.60rem;
+text-align: center;
+}
+.prag p
+{
+    /*font-size: 1.80rem;*/
+    text-align: center;
+    line-height: 3.20rem;   
+    font-weight:medium;
+    color:white;  
+    font-size: 1.80rem;
+
+}
+.prag a
+{
+    color:white;
+}
+#btn
+{
+    background: #c72e6a;
+    border: none;
+    color:white;
+    padding: 0.90rem 3.70rem;
+    font-weight: bold;
+    font-size: 1.50rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0.30rem;
+    margin-top: 3rem;
+}
+button
+{
+    background: #c72e6a;
+    border: none;
+    color:white;
+    padding: 0.90rem 3.70rem;
+    font-weight: bold;
+    font-size: 1.50rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0.30rem; 
+    
+}
+
+/* box starts */
+.eighty
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    margin-top: 7rem;
+
+}
+.box
+{
+    width: 30%;
+    text-align: center;
+    background-color: rgb(250, 248, 248); 
+    padding-bottom: 3rem;
+    border-bottom-left-radius: .40rem;
+    border-bottom-right-radius: .40rem;
+
+}
+.box img
+{
+    width: 100%;
+}
+.box p
+{
+    padding: 2.30rem 2.30rem;
+    line-height: 2.20rem; 
+    font-size: 1.10rem;  
+}
+.mar
+{
+    margin-top: 3rem;
+}
+
+
+/*third*/
+
+
+
+.fourb
+{
+    width: 90%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0 auto; 
+    padding: 6rem 1rem;
+  
+}
+.left-sec
+{
+    width: 49%;  
+    color:white;
+    
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between; */
+  
+}
+.left-bx
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.leftttt
+{
+    width:10%; 
+}
+.leftrrrr
+{
+    width:90%;
+} 
+
+.left-bx h1
+{
+    font-size:3.30rem; 
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+.left-bx h3
+{
+    font-size:2.20rem; 
+    padding-left: 1.50rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.left-bx .leftrrrr p
+{
+    font-size: 1.17rem; 
+    padding-top: 1.50rem;
+    line-height: 2rem;
+    padding-left: 1.50rem;
+  
+}
+
+#last p
+ {
+    font-size: 1.17rem;   
+ }
+ .left-sec hr
+ { 
+     margin: 2.70rem 0rem;
+ }
+/*
+.left h3
+{
+    font-size: 2.45rem;
+    text-transform: uppercase;
+}
+.left h1
+{
+    font-size: 3rem; 
+
+}
+.left p
+{
+    font-size: 1.20rem; 
+}
+*/
+
+.right-sec
+{
+    width:49%; 
+    color:white;
+}
+.right-sec hr
+{ 
+    margin: 2.70rem 0rem; 
+    color: gray; 
+    opacity: .1rem;
+}
+
+
+
+
+.contact
+{
+    width: 100%; 
+    background-color: #c72e6a;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.caption
+{
+    text-align: center;
+    color:white;
+    padding-top: 6rem;
+    margin: 0 auto;
+}
+.caption h1
+{
+  font-size: 3rem;    
+text-transform: uppercase;
+font-weight: 900; 
+
+}
+.caption p
+{
+  font-size: 1.50rem;     
+  padding-top: 0.70rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.inform
+{
+    width: 65%;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+textarea
+{
+    border-radius: 0.3rem;
+    width: 100%;
+    height:15rem
+}
+#btnll
+{
+    background: #c72e6a;
+    border: 0.1rem solid white;
+    color:white;
+    padding: 1rem 3rem; 
+    font-size: 1.30rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0.30rem; 
+    margin-top: 1rem;
+}
+
+footer
+{
+    padding: 5rem 0rem;
+    background-color: black;
+    text-align: center;
+    color:gray;
+}
+
+footer span 
+{ 
+    font-size: 4rem;
+    padding: 1.60rem 1rem;
+}
+footer p
+{
+    font-size: 1.10rem;
+    font-weight: 300;
+}
+
+footer h6
+{
+    font-size: smaller;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    header nav {
+         width:100%;
+         height:auto;
+     }
+  
+   
+}
+
+
+@media screen and (max-width:768px) {
+    
+   
+     .box {
+    width: 100%; 
+    margin-top: 7%;
+
+    }
+   
+    
+}
+@media screen and (max-width:768px) {
+    
+    .left-sec {
+        width:100%;
+        padding-bottom: 8%;
+    }
+    .right-sec {
+        width:100%;
+    }
+   
+   
+}
